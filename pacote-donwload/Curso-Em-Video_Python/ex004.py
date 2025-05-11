@@ -1,0 +1,10 @@
+'''Programa para ler algo digitado, mostrar seu tipo primitivo e suas informações: '''
+algo = input('Digite algo: ')
+print(type(algo))
+print('É numerico?',algo.isnumeric())
+print('É uma Palavra ou letra?',algo.isalpha())
+print('É alpha numerico?',algo.isalnum())
+print('É decimal?',algo.isdecimal())
+print('Tá em maiusculo?',algo.isupper())
+print('Ta em minusculo',algo.islower())
+print('É Captalizado?',algo.istitle())
